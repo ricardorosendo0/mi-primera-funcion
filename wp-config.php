@@ -25,3 +25,8 @@ define( 'COMPRESS_CSS', true );
 define( 'COMPRESS_SCRIPTS', true ); 
 /* Turn On GZIP Compression */ 
 define( 'ENFORCE_GZIP', true );
+
+Desactivar las actualziaciones automaticas
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+Desactivar las actualziaciones del core
+define( 'WP_AUTO_UPDATE_CORE', false );
